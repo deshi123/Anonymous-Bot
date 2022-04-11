@@ -11,6 +11,8 @@ Just Forward me Some messages or
 media and I will **Anonymize** that !!
 
 You Can Clone me too :- [Click Here](https://github.com/DARKEMPIRESL/Anonymous-Bot)
+Visit and give a star😁😁
+Please Subscribe Our [Chanel](https://t.me/SLBotOfficial) 😎🔰
 """
 
 if var.START_MESSAGE is not None:
@@ -21,11 +23,8 @@ else:
 
 REPLY_MARKUP = InlineKeyboardMarkup(
     [   
-        {
         [InlineKeyboardButton("Caption Setting", callback_data="captz"),InlineKeyboardButton("Contact Owner", url=f"https://t.me/SL_BOTS_TM")],
-        [InlineKeyboardButton("Support Group", url="https://t.me/trtechguide"),InlineKeyboardButton("Support Chanel", url="https://t.me/SLBotOfficial")],
-        [InlineKeyboardButton("Github", url=f"https://github.com/DARKEMPIRESL/Anonymous-Bot")],
-        } 
+        [InlineKeyboardButton("Support Group", url="https://t.me/trtechguide"),InlineKeyboardButton("Support Chanel", url="https://t.me/SLBotOfficial"),InlineKeyboardButton("Github", url=f"https://github.com/DARKEMPIRESL/Anonymous-Bot")],
     ]
 )
 
