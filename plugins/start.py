@@ -11,7 +11,7 @@ Just Forward me Some messages or
 media and I will **Anonymize** that !!
 
 You Can Clone me too :- [Click Here](https://github.com/DARKEMPIRESL/Anonymous-Bot)
-Visit and give a star😁😁
+Visit and give a **star**😁😁
 Please Subscribe Our [Chanel](https://t.me/SLBotOfficial) 😎🔰
 """
 
