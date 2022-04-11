@@ -10,8 +10,7 @@ Hi, I am **ANONYMOUS SENDER BOT.**\n
 Just Forward me Some messages or
 media and I will **Anonymize** that !!
 
-You Can too Clone me :-
-https://github.com/DARKEMPIRESL/Anonymous-Bot
+You Can Clone me too :- [Click Here](https://github.com/DARKEMPIRESL/Anonymous-Bot)
 """
 
 if var.START_MESSAGE is not None:
@@ -21,9 +20,12 @@ else:
 
 
 REPLY_MARKUP = InlineKeyboardMarkup(
-    [
-        [InlineKeyboardButton("Caption Setting", callback_data="captz")],[InlineKeyboardButton("Contact Owner", url=f"https://t.me/SL_BOTS_TM")],
-        [InlineKeyboardButton("Support Group", url="https://t.me/trtechguide")],[InlineKeyboardButton("Github", url=f"https://github.com/DARKEMPIRESL/Anonymous-Bot")]
+    [   
+        {
+        [InlineKeyboardButton("Caption Setting", callback_data="captz"),InlineKeyboardButton("Contact Owner", url=f"https://t.me/SL_BOTS_TM")],
+        [InlineKeyboardButton("Support Group", url="https://t.me/trtechguide"),InlineKeyboardButton("Support Chanel", url="https://t.me/SLBotOfficial")],
+        [InlineKeyboardButton("Github", url=f"https://github.com/DARKEMPIRESL/Anonymous-Bot")],
+        } 
     ]
 )
 
