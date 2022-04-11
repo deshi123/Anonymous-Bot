@@ -23,8 +23,8 @@ else:
 
 REPLY_MARKUP = InlineKeyboardMarkup(
         [   
-            [InlineKeyboardButton("Caption Setting", callback_data="captz")],
-            [InlineKeyboardButton("Contact Owner", url=f"https://t.me/SL_BOTS_TM"),InlineKeyboardButton("Support Group", url="https://t.me/trtechguide"),InlineKeyboardButton("Support Chanel", url="https://t.me/SLBotOfficial"),InlineKeyboardButton("Github", url=f"https://github.com/DARKEMPIRESL/Anonymous-Bot")],
+            [InlineKeyboardButton("Caption Setting", callback_data="captz"),InlineKeyboardButton("Contact Owner", url=f"https://t.me/SL_BOTS_TM")],
+            [InlineKeyboardButton("Support Group", url="https://t.me/trtechguide"),InlineKeyboardButton("Support Chanel", url="https://t.me/SLBotOfficial"),InlineKeyboardButton("Github", url=f"https://github.com/DARKEMPIRESL/Anonymous-Bot")],
         ]       
 )
 
