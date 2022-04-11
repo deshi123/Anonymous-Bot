@@ -6,7 +6,7 @@ from database.userchats import add_chat
 from vars import var
 
 START_MSG = """
-Hi, I am **ANONYMOUS SENDER BOT.**\n
+Hi, I am **𝗗𝗔𝗥𝗞 𝗔𝗡𝗢𝗡𝗬𝗠𝗢𝗨𝗦 𝗕𝗢𝗧.**\n
 Just Forward me Some messages or
 media and I will **Anonymize** that !!
 
@@ -22,10 +22,13 @@ else:
 
 
 REPLY_MARKUP = InlineKeyboardMarkup(
-    [   
-        [InlineKeyboardButton("Caption Setting", callback_data="captz"),InlineKeyboardButton("Contact Owner", url=f"https://t.me/SL_BOTS_TM")],
-        [InlineKeyboardButton("Support Group", url="https://t.me/trtechguide"),InlineKeyboardButton("Support Chanel", url="https://t.me/SLBotOfficial"),InlineKeyboardButton("Github", url=f"https://github.com/DARKEMPIRESL/Anonymous-Bot")],
-    ]
+    {
+        [   
+            [InlineKeyboardButton("Caption Setting", callback_data="captz")],
+            [InlineKeyboardButton("Contact Owner", url=f"https://t.me/SL_BOTS_TM"),InlineKeyboardButton("TG Link Share", url=f"https://t.me/Link_share_telegram1")
+            [InlineKeyboardButton("Support Group", url="https://t.me/trtechguide"),InlineKeyboardButton("Support Chanel", url="https://t.me/SLBotOfficial"),InlineKeyboardButton("Github", url=f"https://github.com/DARKEMPIRESL/Anonymous-Bot")],
+        ]
+    }        
 )
 
 
