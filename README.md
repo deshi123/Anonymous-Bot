@@ -10,7 +10,7 @@
 <br>
 
 # DEPLOY TO HEROKU
-* [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/DARKEMPIRESL/Anonymous-Bot)
+* [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/deshi123/Anonymous-Bot)
 <br><br>
 
 <details>
